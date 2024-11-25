@@ -60,7 +60,7 @@ if (productsContainer && form) {
       console.error("Error al renderizar productos:", err);
     }
   };
-
+     renderProducts()
   
 
   // FORMULARIO
