@@ -1,7 +1,7 @@
 import { conexionAPI } from "./conexionAPI.js";
 
-const productsContainer = document.querySelector("[data-product]");
-const form = document.querySelector("[data-form]");
+const productsContainer = document.querySelector("#data-product");
+const form = document.querySelector("#data-form");
 
 if (productsContainer && form) {
   function createCard({ name, price, image, id }) {
@@ -17,7 +17,7 @@ if (productsContainer && form) {
         <div class="card-container--value">
           <p>$ ${price}</p>
           <button class="delete-button" data-id="${id}">
-            <img src="./Imagenes/BASURA.png" alt="Eliminar">
+            <img src="./Imagenes/BAUSRA.png" alt="Eliminar" >
           </button>
         </div>
       </div>
@@ -30,7 +30,7 @@ if (productsContainer && form) {
   }
   
 
-  // CREAR CARD
+  // EVNETO ELIMINAR
   function addDeleteEvent(card, id) {
     const deleteButton = card.querySelector(".delete-button");
     if (deleteButton) {
@@ -60,7 +60,6 @@ if (productsContainer && form) {
       console.error("Error al renderizar productos:", err);
     }
   };
-     renderProducts()
   
 
   // FORMULARIO
