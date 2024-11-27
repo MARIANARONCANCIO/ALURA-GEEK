@@ -8,7 +8,7 @@
 
 
 }
-
+/*body*/
 
 * {
     box-sizing: border-box;
@@ -20,16 +20,16 @@ body {
 
 /* Estiliza a barra de rolagem */
 body::-webkit-scrollbar {
-    width: 8px; /* Largura da barra de rolagem */
+    width: 8px; /
 }
 
 body::-webkit-scrollbar-thumb {
-    background-color: #ccc; /* Cor do polegar (a parte móvel) */
-    border-radius: 4px; /* Borda arredondada do polegar */
+    background-color: #ccc; 
+    border-radius: 4px; 
 }
 
 body::-webkit-scrollbar-track {
-    background-color: #f1f1f1; /* Cor da faixa de rolagem (a parte fixa) */
+    background-color: #f1f1f1; 
 }
 
 img {
@@ -108,14 +108,15 @@ h1 {
 
 .card {
         background-color: var(--color-primario); 
-        border-radius: 10px; 
+        border-radius: 5px; 
         border: 3px solid var(--color-hover);
         
          width: 200px;
-         height: 40vh;
+         height: 40%;
          display: flex;
         justify-content: center;
         flex-direction: column;
+        
         font-size: 32px;
          }
 
@@ -141,39 +142,36 @@ h1 {
             flex-direction: column;
             align-items: center;
             font-size: 20px;
+            gap: 1 rem;
+            margin-top:10px;
             
         }
         .card-container--value{
             display: flex;
-            
+            min-width: 100%;
             justify-content: space-between;
             align-items: center;
-    
-            min-width: 100%;
+
     
         }
-        .card-container--value img{
-            width: 30%;
-            align-items: center;
-        }
-
-
-
-
-        .button-ver-mas:hover {
-            background-color:#02791aea;
-            transform: scale(1.01);        }
         
-        img.icono-button {
-            width: 20px;
+        
+
+        .delete-button{
+              background-color: transparent;
+              border: 0 none;
+              width: 60%;
+              cursor: pointer;
+        }
+        .delete-button:hover{
+            color:var(--color-terciario);
+            background-color: var(#3e2723);
             
         }
 
-        .cant-items {
-            text-align: center;
-            padding-bottom: 1em;
-        }*/
-/**/
+
+    
+/*formulario*/
         h1{
             color: var(--color-terciario);
         }
@@ -195,11 +193,7 @@ h1 {
             border: 3px solid #02791aea;
         }
         
-        .delete-button {
-            background-color: transparent;
-            border: 0 none;
-            width: 10%;
-        }
+       
         
         .button-container {
             display: flex;
@@ -241,12 +235,17 @@ h1 {
 .footer{
     background-color: var(--color-primario);
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 1.5rem 0;
+    flex-direction: column-reverse;
+    justify-content: space-around;
+    text-align: center;
+    padding: 5px;
     width: 100%;
+    height: 20%;
+    size: 24px;
+
     
 }
+
     
 
 @media screen and (max-width: 768px){
@@ -255,43 +254,54 @@ h1 {
         align-items: center;
         justify-content: center;
     }
-
-    .main-container > section {
+    
+    /*.main-container > section {
         width: 100%; 
         margin: 2rem 0 ;
+    }*/
+    .productos{
+        height: auto;
+        max-height: 90vh;
     }
-
+    .producto-container{
+        max-height: 80vh;
+    }
+    /*card*/
+    .card {
+        width: 180px;  
+        height: auto;
+        border-radius: 5px;
+       font-size: 2px;
+       
+    }
+ 
     .form-container {
         padding: 2rem;
     }
+        .button-container{
+            flex-direction: row;
+            gap: 1rem;
+        }
+    
 
-    .card {
-        width: 176px; 
-        height: 170px;
-        margin-bottom: 15px; 
-    }
+   
 
-    .card img{
-     width: 70%;
-     display: flex;
-     justify-content: center;
-     align-items: center;
-
-    }
-
-    .button-container{
-        flex-direction: column;
-        gap: 1rem;
-    }
+   
 
     .footer {
-        position: relative;
+      gap: 0%;
+      
     }
-
     .footer-container > p,
     .footer-container > small {
         font-size: 14px;
+        margin: 0;
+        padding: 2px;
+        gap:0;
     }
-}
+    .logo-1{
+      width:25px ;
+      height:25px ;
+    }
 
-        
+}

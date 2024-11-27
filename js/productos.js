@@ -16,9 +16,11 @@ if (productsContainer && form) {
         <p>${name}</p>
         <div class="card-container--value">
           <p>$ ${price}</p>
+          
           <button class="delete-button" data-id="${id}">
             <img src="./Imagenes/BAUSRA.png" alt="Eliminar" >
           </button>
+            
         </div>
       </div>
     `;

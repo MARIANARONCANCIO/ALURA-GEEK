@@ -1,118 +1,112 @@
 {
   "products": [
     {
-      "id": 1,
+      "id": "1",
       "name": " Aeonium spp",
       "price": "8.000",
       "image": "Imagenes/Producto 1.jpg"
     },
     {
-      "id": 2,
-      "name": "Senecio spp",
+      "id": "2",
+      "name": " Senecio spp",
       "price": "5.000",
       "image": "Imagenes/Producto 2.jpg"
     },
     {
-      "id": 3,
-      "name": "Sedum rubrotinctum",
+      "id": "3",
+      "name": " Sedum rubrotinctum",
       "price": "5.500",
       "image": "Imagenes/Producto 3.jpg"
     },
     {
-      "id": 4,
+      "id": "4",
       "name": "Sedum pachyphyllum",
       "price": "4.900",
       "image": "Imagenes/Producto 4.jpg"
     },
     {
-      "id": 5,
+      "id": "5",
       "name": "Sedeveria spp",
       "price": "5.000",
       "image": "Imagenes/Producto 5.jpg"
     },
     {
-      "id": 6,
+      "id": "6",
       "name": "Echeveria sp.",
       "price": "4.000",
       "image": "Imagenes/Producto 6.jpg"
     },
     {
-      "id": 7,
+      "id": "7",
       "name": "Echeveria sp",
       "price": "5.000",
       "image": "Imagenes/Producto 7.jpg"
     },
     {
-      "id": 8,
+      "id": "8",
       "name": " Haworthia spp",
       "price": "5.500",
       "image": "Imagenes/Producto 8.jpg"
     },
     {
-      "id": 9,
+      "id": "9",
       "name": " Echeveria sp.",
       "price": "4.900",
       "image": "Imagenes/Producto 9.jpg"
     },
     {
-      "id": 10,
+      "id": "10",
       "name": "Faucaria spp",
       "price": "5.500",
       "image": "Imagenes/Producto 10.jpg"
     },
     {
-      "id": 11,
+      "id": "11",
       "name": "Echeveria shaviana",
       "price": "5.500",
       "image": "Imagenes/Producto 11.jpg"
     },
     {
-      "id": 12,
+      "id": "12",
       "name": "Echeveria runyonii",
       "price": "6.000",
       "image": "Imagenes/Producto 12.jpg"
     },
     {
-      "id": 13,
+      "id": "13",
       "name": "Crassula Capitella Origami",
       "price": "10.000",
       "image": "Imagenes/Producto 13.jpg"
     },
     {
-      "id": 14,
+      "id": "14",
       "name": "Aloe juvenna",
       "price": "8.000",
       "image": "Imagenes/Producto 14.jpg"
     },
     {
-      "id": 15,
+      "id": "15",
       "name": " Kalanchoe sp ",
       "price": "10.000",
       "image": "Imagenes/Producto 15.jpg"
     },
     {
-      "id": 16,
+      "id": "16",
       "name": " Haworthia sp",
       "price": "6.000",
       "image": "Imagenes/Producto 16.jpg"
     },
     {
-      "id": 17,
+      "id": "17",
       "name": "Euphorbia sp",
       "price": "10.000",
       "image": "Imagenes/Producto 17.jpg"
     },
     {
-      "id": 18,
+      "id": "18",
       "name": "Crassula sp",
       "price": "10.000",
       "image": "Imagenes/Producto 18.jpg"
-    },
-    {
-      "id": "5a33",
-      "name": "Cyanotis sp",
-      "price": "7.000",
-      "image": "Imagenes/Producto 19.jpg"
     }
   ]
 }
